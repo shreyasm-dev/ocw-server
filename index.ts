@@ -1,4 +1,4 @@
-import titleCase from 'https://deno.land/x/case@2.2.0/titleCase.ts';
+import { titleCase } from 'https://esm.sh/title-case@4.1.2';
 import { resolve } from 'https://deno.land/std@0.206.0/path/mod.ts';
 import { folder } from './constants.ts';
 
@@ -14,9 +14,12 @@ const content = items
     (s) =>
       `<a href='/${s}/'>${titleCase(s.replaceAll('-', ' '))
         .replace(' ', '.')
-        .replaceAll('Ii', 'II')
-        .replaceAll('IIi', 'III')
-        .replaceAll('Iv', 'IV')}</a>`
+        .replace(
+          // Handle Roman numerals
+          // Taken/modified from https://stackoverflow.com/a/267405
+          /\bM{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\b/gi,
+          (s) => s.toUpperCase()
+        )}</a>`
   )
   .join('\n');
 
