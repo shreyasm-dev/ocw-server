@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read main.ts",
+    "download": "deno run --allow-net --allow-write --allow-run --allow-read download.ts",
+    "index": "deno run --allow-read --allow-write index.ts"
+  }
+}

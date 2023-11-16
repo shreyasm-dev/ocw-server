@@ -1,0 +1,20 @@
+{
+  "course_title":"Topics in Linguistics Theory",
+  "course_description":"I realize that \"Modes of Assertion\" is a rather cryptic title for the course. What we will explore are ways of modulating the force of an assertion. This will engage us in formal semantics and pragmatics, the theory of speech acts and performative utterances, and quite a bit of empirical work on a not-too-well understood complex of data.\n\n\"He obviously made a big mistake.\"\n\n\"It is obvious that he made a big mistake.\"\n\nIf you're like me you didn't feel much of a difference. But now see what happens when you embed the two sentences:\n\n\"We have to fire him, because he obviously made a big mistake.\"\n\n\"We have to fire him, because it is obvious that he made a big mistake.\"\n\nOne of the two examples is unremarkable, the other suggests that the reason he needs to be fired is not that he made a big mistake but the fact that it is obvious that he did.\n\nWe will try to understand what is going on here and look at related constructions not just in English but also German (with its famous discourse particles like *ja*) and Quechua and Tibetan (with their systems of evidentiality-marking, as recently studied in dissertations from Stanford and UCLA).",
+  "site_uid":"982c62bd-64ca-430f-8693-908515aa3907",
+  "legacy_uid":"1f571e3c-2fbd-132b-911a-ca039723e265","instructors": [{
+    "first_name":"Kai",
+    "last_name":"von Fintel",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Kai von Fintel"}],"department_numbers":["24"],
+  "learning_resource_types":["Lecture Notes","Written Assignments"],
+  "topics":[["Humanities","Linguistics","Semantics"]],
+  "primary_course_number":"24.910",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2003",
+  "level":["Undergraduate"],
+  "image_src":"./static_resources/c07edffa639650576de7e1fab8773e16_24-910s03.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Tibetan text on wall. (Image courtesy of The Tibetan \u0026 Himalayan Digital Library, supported and managed by the University of Virginia Library: http://www.thlib.org/. Image File #: C1951. Used with permission.)","draft":false,"file":"/courses/24-910-topics-in-linguistics-theory-spring-2003/c07edffa639650576de7e1fab8773e16_24-910s03.jpg","file_type":"image/jpeg","image_metadata":{"caption":"Tibetan text on wall. (Image courtesy of The Tibetan \u0026 Himalayan Digital Library, supported and managed by the University of Virginia Library: [http://www.thlib.org/](http://www.thlib.org/). Image File #: C1951. Used with permission.)","credit":"","image-alt":"Tibetan graffiti on a crumbling plaster wall."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"Tibetan text on wall","uid":"c07edffa-6396-5057-6de7-e1fab8773e16"}}
+
