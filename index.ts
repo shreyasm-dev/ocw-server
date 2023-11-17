@@ -1,6 +1,6 @@
 import { titleCase } from 'https://esm.sh/title-case@4.1.2';
 import { resolve } from 'https://deno.land/std@0.206.0/path/mod.ts';
-import { folder } from './constants.ts';
+import { folder, indexTemplate } from './constants.ts';
 
 const items = [];
 
@@ -21,11 +21,9 @@ const content = items
           (s) => s.toUpperCase()
         )}</a>`
   )
-  .join('\n');
+  .join('');
 
 await Deno.writeTextFile(
   resolve(folder, 'index.html'),
-  (
-    await Deno.readTextFile(resolve(folder, 'index.html'))
-  ).replace(/<div id="app">.*<\/div>/s, `<div id="app">${content}</div>`)
+  indexTemplate(content)
 );
